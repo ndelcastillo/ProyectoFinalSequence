@@ -1,0 +1,52 @@
+
+.row_index_artista1 {
+    background-image: url(./IMAGES/2.\ ARTISTAS/leekd-redB.jpg);
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+.row_index_artista1:hover {
+    background-image: url(./IMAGES/2.\ ARTISTAS/leekd-cleanA.jpg);
+    opacity: 100%;
+    background-size: cover;
+    border-radius: 0%;
+}
+
+.row_index_artista2 {
+    background-image: url(./IMAGES/2.\ ARTISTAS/N1A-redB.jpg);
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+.row_index_artista2:hover {
+    background-image: url(./IMAGES/2.\ ARTISTAS/N1A-cleanA.jpg);
+    opacity: 100%;
+    background-size: cover;
+    border-radius: 0%;
+}
+
+.row_index_artista3 {
+    background-image: url(./IMAGES/2.\ ARTISTAS/j4x-redB.png);
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+.row_index_artista3:hover {
+    background-image: url(./IMAGES/2.\ ARTISTAS/j4x-cleanA.png);
+    opacity: 100%;
+    background-size: cover;
+    border-radius: 0%;
+}
+
+.row_index_artista4 {
+    background-image: url(./IMAGES/2.\ ARTISTAS/GinaDemarchi-redB.jpg);
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+.row_index_artista4:hover {
+    background-image: url(./IMAGES/2.\ ARTISTAS/GinaDemarchi-cleanA.jpg);
+    opacity: 100%;
+    background-size: cover;
+    border-radius: 0%;
+}

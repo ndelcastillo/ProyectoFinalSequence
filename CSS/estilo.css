@@ -1,0 +1,254 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to bottom, white, grey);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: black;
+}
+
+h2 {
+    font-size: x-large;
+    color: black;
+}
+
+/*HEADER*/
+.navbar {
+    padding: 20px;
+    align-items: center;
+}
+
+/*FOOTER*/
+.row_footer_hola {
+    font-style: italic;
+    background-color: lightgray
+}
+
+.row_footer_redesSociales {
+    font-style: italic;
+    background-color: lightgray
+}
+
+.row_footer_data {
+    font-style: italic;
+    background-color: lightgray
+}
+
+/*INDEX*/
+.row_index_sq {
+    background-color: lightgray;
+}
+
+.row_index_lanzamiento1 {
+    background-color: lightgray;
+}
+
+.row_index_lanzamiento2 {
+    background-color: lightgray;
+}
+
+.row_index_eventos1 {
+    background-color: lightgray;
+}
+
+.row_index_eventos2 {
+    background-color: lightgray;
+}
+
+.row_index_tienda_m1 {
+    background-color: lightgray;
+}
+
+.row_index_tienda_m2 {
+    background-color: lightgray;
+}
+
+/*ARTISTAS*/
+.row_artistas_artista1 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista2 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista3 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista4 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista5 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista6 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista7 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista8 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista9 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista10 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista11 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista12 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista13 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista14 {
+    background-color: lightgray;
+}
+
+.row_artistas_artista15 {
+    background-color: lightgray;
+}
+
+/*LANZAMIENTOS*/
+.row_lanzamientos_lanzamiento1_info1 {
+    background: linear-gradient(to left, white, grey);
+}
+
+.row_lanzamientos_lanzamiento1_info1 ul {
+    text-align: center;
+}
+
+.row_lanzamientos_lanzamiento1_info1 li {
+    list-style-type: none;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row_lanzamientos_lanzamiento1_info2 {
+    background-color: white;
+}
+
+.row_lanzamientos_lanzamiento1_info2 a {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.row_lanzamientos_lanzamiento1_info3 {
+    background: linear-gradient(to right, white, grey);
+}
+
+.row_lanzamientos_lanzamiento1_info3 ul {
+    text-align: center;
+}
+
+.row_lanzamientos_lanzamiento1_info3 li {
+    list-style-type: none;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row_lanzamientos_lanzamiento2_info1 {
+    background: linear-gradient(to left, white, grey);
+}
+
+.row_lanzamientos_lanzamiento2_info1 ul {
+    text-align: center;
+}
+
+.row_lanzamientos_lanzamiento2_info1 li {
+    list-style-type: none;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row_lanzamientos_lanzamiento2_info2 {
+    background-color: white;
+}
+
+.row_lanzamientos_lanzamiento2_info2 a {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.row_lanzamientos_lanzamiento2_info3 {
+    background: linear-gradient(to right, white, grey);
+}
+
+.row_lanzamientos_lanzamiento2_info3 ul {
+    text-align: center;
+}
+
+.row_lanzamientos_lanzamiento2_info3 li {
+    list-style-type: none;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*TIENDA*/
+.row_tienda_coleccion {
+    background-color: lightgray;
+}
+
+.row_tienda_modelo1_texto {
+    background-color: lightgray;
+}
+
+.row_tienda_modelo1_img {
+    background-color: lightgray;
+}
+
+.row_tienda_modelo1_tabla {
+    background-color: lightgray;
+}
+
+.row_tienda_modelo2_texto {
+    background-color: lightgray;
+}
+
+.row_tienda_modelo2_img {
+    background-color: lightgray;
+}
+
+.row_tienda_modelo2_tabla {
+    background-color: lightgray;
+}
+
+.row_tienda_preguntasFrecuentes {
+    background-color: lightgray;
+}
+
+/*LOGIN*/
+.login {
+    background: linear-gradient(to right, white, grey);
+}

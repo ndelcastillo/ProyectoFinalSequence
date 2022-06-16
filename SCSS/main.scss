@@ -1,0 +1,30 @@
+
+/*FONTS*/
+/*Montserrat*/
+/*thin100*/
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap";
+/*extraLight200*/
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap";
+/*light300*/
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap";
+/*regular400*/
+@import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
+/*semibold600*/
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap";
+
+
+/*GENERAL*/
+@import "general";
+@import "header";
+@import "footer";
+@import "variables";
+
+/*SECCIONES*/
+@import "0index";
+@import "1artistas";
+@import "2lanzamientos";
+@import "3nexo";
+@import "4tienda";
+@import "5eventos";
+@import "6contacto";
+@import "7login";

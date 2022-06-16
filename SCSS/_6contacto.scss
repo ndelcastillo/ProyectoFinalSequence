@@ -1,0 +1,146 @@
+.row_contacto_somos {
+    .somos {
+        text-align: left;
+    }
+}
+
+.row_contacto_sqtexto {
+    .texto {
+        text-align: justify;
+        font-size: 23px;
+        font-family: $fontFamilyM;
+        font-weight: 200;
+    }
+}
+
+.row_contacto_nosotros {
+    .nosotros {
+        text-align: left;
+    }
+}
+
+.row_contacto_nosotros_texto1 {
+    text-align: left;
+
+    .nosotros1 {
+        font-size: 25px;
+        font-family: $fontFamilyM;
+        font-weight: 200;
+    }
+}
+
+.row_contacto_nosotros_texto2 {
+    text-align: left;
+
+    .nosotros2 {
+        font-size: 25px;
+        font-family: $fontFamilyM;
+        font-weight: 200;
+    }
+}
+
+.row_contacto_nosotros_texto3 {
+    text-align: left;
+
+    .nosotros3 {
+        font-size: 25px;
+        font-family: $fontFamilyM;
+        font-weight: 200;
+    }
+}
+
+.row_contacto_nosotros_texto4 {
+    text-align: left;
+
+    .nosotros4 {
+        font-size: 25px;
+        font-family: $fontFamilyM;
+        font-weight: 200;
+    }
+}
+
+
+
+.row_contacto_ustedes {
+    .ustedes {
+        text-align: left;
+    }
+}
+
+.row_contacto_ustedes_formulario {
+    .row_contacto_ustedes_formulario1 {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+$textosContacto: (
+    t: 10px,
+    s: 5px,
+    tx: 2px,
+);
+
+$t: map-get($textosContacto, t);
+$s: map-get($textosContacto, s);
+$tx: map-get($textosContacto, tx);
+
+h1 {
+    letter-spacing: $t;
+}
+
+h3 {
+    letter-spacing: $s;
+}
+
+h4 {
+    letter-spacing: $tx;
+}
+
+
+$textosFormulario: (
+    tp: 8px,
+);
+
+$tp: map-get($textosFormulario, tp);
+
+.row_contacto_ustedes_formulario1_data1 {
+    padding: $tp;
+}
+
+.row_contacto_ustedes_formulario1_data2 {
+    padding: $tp;
+}
+
+.row_contacto_ustedes_formulario1_data3 {
+    padding: $tp;
+}
+
+.row_contacto_ustedes_formulario1_data4 {
+    padding: $tp;
+}
+
+.row_contacto_ustedes_formulario1_data5 {
+    padding: $tp;
+}
+
+.row_contacto_ustedes_formulario1_data6 {
+    padding: $tp;
+}
+
+.row_contacto_ustedes_formulario1_data7 {
+    padding: $tp;
+}
+
+.row_contacto_ustedes_formulario1_data8 {
+    padding: $tp;
+}
+
+.row_contacto_ustedes_formulario1_data9 {
+    padding: $tp;
+}
+
+.row_contacto_ustedes_formulario1_data10 {
+    padding: $tp;
+}

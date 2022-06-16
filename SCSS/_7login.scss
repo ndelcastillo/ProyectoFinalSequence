@@ -1,0 +1,29 @@
+.login {
+    background: linear-gradient(to right, white, grey);
+}
+
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.btn_login {
+    @include sizes(100px, 70px)
+}
+
+.btn_login {
+    width: 100px;
+    text-align: center;
+    font-family: $fontFamilyM;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 2px auto;
+    border-radius: 8%;
+    color: blue;
+}
+
+.btn_signin {
+    @extend .btn_login;
+    color: green;
+
+}
