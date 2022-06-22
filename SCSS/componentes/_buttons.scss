@@ -1,0 +1,18 @@
+.boton-clasico {
+    @extend .boton;
+    background-color: blue;
+}
+
+.boton-alerta {
+    @extend .boton;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.boton-nuevo {
+    @extend .boton;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}

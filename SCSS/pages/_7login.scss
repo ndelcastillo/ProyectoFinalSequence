@@ -1,0 +1,56 @@
+.login {
+    background: linear-gradient(to right, white, grey);
+}
+
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.btn_login {
+    @include sizes(100px, 70px)
+}
+
+.btn_login {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    font-family: $fontFamilyM;
+    padding: 5px 0;
+    margin: 2px auto;
+    border-radius: 8%;
+    color: blue;
+}
+
+.btn_signin {
+    @extend .btn_login;
+    color: red;
+
+}
+
+$anchoCard: 500px;
+
+.cardlogin {
+    @include dimensiones ($anchoCard, $anchoCard);
+    border-radius: 10%;
+    background-color: lightblue;
+
+    &--1 {
+        @include borde(blue, 10px);
+
+    }
+
+    &--2 {
+        @include borde(red, 10px);
+
+    }
+
+    &--3 {
+        @include borde(green, 10px);
+
+    }
+}
+
+.cardlogin3 {
+    @include flexible ()
+}

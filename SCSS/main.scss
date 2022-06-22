@@ -12,19 +12,34 @@
 /*semibold600*/
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap";
 
-
 /*GENERAL*/
-@import "general";
-@import "header";
-@import "footer";
-@import "variables";
+@import "general/general";
+@import "general/header";
+@import "general/footer";
 
-/*SECCIONES*/
-@import "0index";
-@import "1artistas";
-@import "2lanzamientos";
-@import "3nexo";
-@import "4tienda";
-@import "5eventos";
-@import "6contacto";
-@import "7login";
+/*VENDORS*/
+@import "vendors/bootstrap";
+
+/*BASE*/
+@import "base/reset";
+
+/*ABSTRACTS*/
+@import "abstracts/variables";
+@import "abstracts/extend";
+@import "abstracts/mixin";
+
+/*LAYOUT*/
+@import "layout/nav";
+
+/*COMPONENTES*/
+@import "componentes/buttons";
+
+/*PAGES*/
+@import "pages/0index";
+@import "pages/1artistas";
+@import "pages/2lanzamientos";
+@import "pages/3nexo";
+@import "pages/4tienda";
+@import "pages/5eventos";
+@import "pages/6contacto";
+@import "pages/7login";

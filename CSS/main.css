@@ -11,12 +11,6 @@
 /*semibold600*/
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap";
 /*GENERAL*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  scroll-behavior: smooth; }
-
 body {
   background: linear-gradient(to bottom, white, grey);
   background-repeat: no-repeat;
@@ -38,10 +32,6 @@ h2 {
 header {
   box-shadow: 10px 10px 15px black; }
 
-.navbar {
-  padding: 20px;
-  align-items: center; }
-
 .row_footer_hola {
   font-style: italic;
   background-color: lightgray; }
@@ -62,8 +52,42 @@ header {
     position: relative;
     top: 10px; }
 
-/*VARIABLES*/
-/*SECCIONES*/
+/*VENDORS*/
+/*BASE*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth; }
+
+/*ABSTRACTS*/
+.boton, .boton-clasico, .boton-alerta, .boton-nuevo {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  cursor: pointer; }
+
+/*LAYOUT*/
+.navbar {
+  padding: 20px;
+  align-items: center; }
+
+/*COMPONENTES*/
+.boton-clasico {
+  background-color: blue; }
+
+.boton-alerta {
+  background-color: red;
+  color: white;
+  font-size: 20px; }
+
+.boton-nuevo {
+  background-color: green;
+  color: white;
+  font-size: 20px; }
+
+/*PAGES*/
 .row_index_sq {
   background-color: lightgray; }
 
@@ -585,6 +609,7 @@ h4 {
 
 .btn_login, .btn_signin {
   width: 100px;
+  display: inline-block;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   padding: 5px 0;
@@ -594,3 +619,21 @@ h4 {
 
 .btn_signin {
   color: red; }
+
+.cardlogin {
+  width: 500px;
+  height: 500px;
+  border-radius: 10%;
+  background-color: lightblue; }
+  .cardlogin--1 {
+    border: 10px solid blue; }
+  .cardlogin--2 {
+    border: 10px solid red; }
+  .cardlogin--3 {
+    border: 10px solid green; }
+
+.cardlogin3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row; }
