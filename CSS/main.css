@@ -402,9 +402,17 @@ header {
 /*mediaQuerryMobile*/
 @media only screen and (max-width: 319px) {
   .contenedorPadre {
-    grid-template-columns: 1fr;
+    background-color: #808080 !important;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto 1fr 1fr 1fr auto;
-    grid-template-areas: "section0" "section1" "section2" "section3" "section4"; }
+    grid-template-areas: "section0 section0 section0 section0" "section1 section1 section1 section1" "section2 section2 section2 section2" "section3 section3 section3 section3" "section4 section4 section4 section4"; }
   .indexMain {
     width: 100%;
     background-color: lightgrey;
