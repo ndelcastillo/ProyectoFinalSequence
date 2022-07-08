@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .row_tienda_coleccion {
     background-color: lightgray;
 }
@@ -28,4 +34,35 @@
 
 .row_tienda_preguntasFrecuentes {
     background-color: lightgray;
+}
+
+
+$textosFormulario: (
+    tp: 8px,
+);
+
+$tp: map-get($textosFormulario, tp);
+
+.row_tienda_formulario1_data1 {
+    padding: $tp;
+}
+
+.row_tienda_formulario1_data2 {
+    padding: $tp;
+}
+
+.row_tienda_formulario1_data3 {
+    padding: $tp;
+}
+
+.row_tienda_formulario1_data4 {
+    padding: $tp;
+}
+
+.row_tienda_formulario1_data5 {
+    padding: $tp;
+}
+
+.row_tienda_formulario1_data6 {
+    padding: $tp;
 }

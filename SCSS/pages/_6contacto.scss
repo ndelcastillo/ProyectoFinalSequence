@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .row_contacto_somos {
     .somos {
         text-align: left;
@@ -7,9 +13,10 @@
 .row_contacto_sqtexto {
     .texto {
         text-align: justify;
-        font-size: 23px;
+        font-size: 20px;
         font-family: $fontFamilyM;
         font-weight: 200;
+        line-height: 1.6;
     }
 }
 

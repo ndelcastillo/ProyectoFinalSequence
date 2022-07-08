@@ -1,15 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .row_nexo_nexo1_img1 {
     background-color: grey;
 
     .nexo1A {
         justify-content: center;
         position: relative;
-        top: 45px;
+        top: 100px;
     }
 }
 
-.row_nexo_nexo1_img2 {
+.row_nexo_nexo1_vid2 {
     background-color: grey;
+    height: 545px;
 
     .nexo1B {
         justify-content: center;
@@ -22,7 +29,7 @@
     .nexo1C {
         justify-content: center;
         position: relative;
-        top: 45px;
+        top: 100px;
     }
 }
 
@@ -68,8 +75,9 @@
     }
 }
 
-.row_nexo_nexo2_img2 {
+.row_nexo_nexo2_vid2 {
     background-color: grey;
+    height: 435px;
 
     .nexo2B {
         justify-content: center;

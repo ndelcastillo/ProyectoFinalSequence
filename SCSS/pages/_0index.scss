@@ -1,27 +1,711 @@
-.row_index_sq {
-    background-color: lightgray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.row_index_lanzamiento1 {
-    background-color: lightgray;
+.contenedorPadre {
+    background-color: #808080 !important; 
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr auto;
+    grid-template-areas:
+        "section0 section0 section0 section0"
+        "section1 section1 section1 section1"
+        "section2 section2 section2 section2"
+        "section3 section3 section3 section3"
+        "section4 section4 section4 section4"
 }
 
-.row_index_lanzamiento2 {
-    background-color: lightgray;
+
+/*indexMain = section0*/
+.indexMain {
+    width: 100%;
+    background-color: lightgrey;
+    box-shadow: 0px 10px 10px black;
+    grid-area: section0;
 }
 
-.row_index_eventos1 {
-    background-color: lightgray;
+.indexMain1Portada img {
+    vertical-align: top;
+    width: 100%;
 }
 
-.row_index_eventos2 {
-    background-color: lightgray;
+
+/*indexLanza = section1*/
+.indexLanza {
+    background-color: lightgrey;
+    box-shadow: 0px 10px 10px black;
+    padding: 2rem;
+    grid-area: section1;
 }
 
-.row_index_tienda_m1 {
-    background-color: lightgray;
+.indexLanza0{
 }
 
-.row_index_tienda_m2 {
-    background-color: lightgray;
+.indexLanza0Txt{
+    font-weight: 600;
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 5rem;
+    font-size: 25px;
+    filter: blur(2px);
 }
+
+/*indexLanza1*/
+.indexLanza1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+.indexLanza1Ep1 {
+    display: inline;
+}
+
+.indexLanza1Ep1Img {
+    color: black;
+    padding: 2rem;
+    width: 450px;
+    height: 450px;
+    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/1.SQ01.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.indexLanza1Ep1Img:hover {
+    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/1.SQ01-back.jpg");
+}
+
+.indexLanza1Ep1Ref {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+.indexLanza1Ep1RefSp{
+    width: 150px;
+}
+
+/*indexLanza2*/
+.indexLanza1Ep2 {
+    display: inline;
+}
+
+.indexLanza1Ep2Img {
+    color: black;
+    padding: 2rem;
+    width: 450px;
+    height: 450px;
+    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/2.SQ02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.indexLanza1Ep2Img:hover {
+    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/2.SQ02-back.jpg");
+}
+
+.indexLanza1Ep2Ref {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+.indexLanza1Ep2RefSp{
+    width: 150px;
+}
+
+
+/*indexLanza3*/
+.indexLanza1Ep3 {
+    display: inline;
+}
+
+.indexLanza1Ep3Img {
+    color: black;
+    padding: 2rem;
+    width: 450px;
+    height: 450px;
+    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/5.SQBreaks.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.indexLanza1Ep3Img:hover {
+    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/SQBREAKS-back.jpg");
+}
+
+.indexLanza1Ep3Ref {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+.indexLanza1Ep3RefSp{
+    width: 150px;
+}
+
+
+/*indexStream = section2*/
+.indexStream {
+    background-color: lightgrey;
+    box-shadow: 0px 10px 10px black;
+    padding: 2rem;
+    grid-area: section2;
+}
+
+.indexStream0Txt{
+    font-weight: 600;
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 3rem;
+    filter: blur(2px);
+}
+
+/*indexStream1*/
+.indexStream1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.indexStream1Vid1 {
+    display: inline;
+}
+
+.indexStream1Vid1Iframe {
+    color: black;
+    padding: 2rem;
+}
+
+.indexStream1Vid1Iframe1 {
+    color: black;
+    width: 780px;
+    height: 500px;
+}
+
+/*indexStream2*/
+.indexStream1Vid2 {
+    display: inline;
+}
+
+.indexStream1Vid2Iframe {
+    color: black;
+    padding: 2rem;
+}
+
+.indexStream1Vid1Iframe2 {
+    color: black;
+    width: 780px;
+    height: 500px;
+}
+
+
+/*indexPodcast = section3*/
+.indexPodcast {
+    background-color: lightgrey;
+    box-shadow: 0px 10px 10px black;
+    padding: 2rem;
+    grid-area: section3;
+}
+
+.indexPodcast0Txt{
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
+    filter: blur(2px);
+}
+
+/*indexPodcast1*/
+.indexPodcast1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.indexPodcast1Pod1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.indexPodcast1Pod1Iframe {
+    color: black;
+    padding: 1rem;
+}
+
+.indexPodcast1Pod2Iframe1{
+    width: 1620px;
+    height: 166px;
+}
+
+/*indexPodcast2*/
+.indexPodcast1Pod2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.indexPodcast1Pod2Iframe {
+    color: black;
+    padding: 1rem;
+}
+
+.indexPodcast1Pod2Iframe2{
+    width: 1620px;
+    height: 166px;
+}
+
+/*indexPodcast3*/
+.indexPodcast1Pod3 {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.indexPodcast1Pod3Iframe {
+    color: black;
+    padding: 1rem;
+}
+
+.indexPodcast1Pod2Iframe3{
+    width: 1620px;
+    height: 166px;
+}
+
+
+/*indexFooter = section4*/
+.indexFooter {
+    background-color: lightgrey;
+    box-shadow: 0px 10px 10px black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding: 2rem;
+    grid-area: section4;
+}
+
+.indexFooter0Txt{
+    font-weight: 400;
+    text-align: center;
+    margin: 3rem;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.indexFooter1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+.indexFooter1RedesSocialesIg{
+    width: 100px;
+}
+
+.indexFooter1RedesSocialesSp{
+    width: 100px;   
+}
+
+.indexFooter1RedesSocialesYt{
+    width: 100px;    
+}
+
+.indexFooter1RedesSocialesSc{
+    width: 100px;    
+}
+
+.indexFooter2Txt{
+    font-weight: 400;
+    text-align: center;
+    margin: 3rem;
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+
+
+
+/*mediaQuerryMobile*/
+@media only screen and (max-width:319px){
+    .contenedorPadre{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr auto;
+        grid-template-areas:
+            "section0 section0 section0 section0"
+            "section1 section1 section1 section1"
+            "section2 section2 section2 section2"
+            "section3 section3 section3 section3"
+            "section4 section4 section4 section4"
+    }
+
+    .indexMain {
+        width: 100%;
+        background-color: lightgrey;
+        box-shadow: 0px 10px 10px black;
+        grid-area: section0;
+    }
+    
+    .indexMain1Portada img {
+        width: 100%;
+        height: 180px;
+    }
+
+    
+    /*indexLanza = section1*/
+    .indexLanza {
+        background-color: lightgrey;
+        box-shadow: 0px 10px 10px black;
+        padding: 2rem;
+        height: 1250px;
+        grid-area: section1;
+    }
+    
+    .indexLanza0{
+    }
+    
+    .indexLanza0Txt{
+        font-weight: 600;
+        font-size: 10px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        right: 18px;
+        filter: blur(1px);
+    }
+
+    
+    /*indexLanza1*/
+    .indexLanza1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    
+    .indexLanza1Ep1 {
+    }
+    
+    .indexLanza1Ep1Img {
+        color: black;
+        padding: 2rem;
+        width: 200px;
+        height: 450px;
+        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/1.SQ01.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .indexLanza1Ep1Img:hover {
+        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/1.SQ01-back.jpg");
+    }
+    
+    .indexLanza1Ep1Ref {
+        padding: 1rem;
+        text-align: center;
+        font-weight: 200;
+    }
+    
+    .indexLanza1Ep1RefSp{
+        width: 80px;
+        position: relative;
+        bottom: 260px;
+    }
+    
+    /*indexLanza2*/
+    .indexLanza1Ep2 {
+        position: relative;
+        bottom: 200px;
+    }
+    
+    .indexLanza1Ep2Img {
+        color: black;
+        padding: 2rem;
+        width: 200px;
+        height: 450px;
+        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/2.SQ02.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .indexLanza1Ep2Img:hover {
+        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/2.SQ02-back.jpg");
+    }
+    
+    .indexLanza1Ep2Ref {
+        padding: 1rem;
+        text-align: center;
+        font-weight: 200;
+    }
+    
+    .indexLanza1Ep2RefSp{
+        width: 80px;
+        position: relative;
+        bottom: 260px;
+    }
+    
+    
+    /*indexLanza3*/
+    .indexLanza1Ep3 {
+        position: relative;
+        bottom: 400px;
+    }
+    
+    .indexLanza1Ep3Img {
+        color: black;
+        padding: 2rem;
+        width: 200px;
+        height: 450px;
+        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/5.SQBreaks.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .indexLanza1Ep3Img:hover {
+        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/SQBREAKS-back.jpg");
+    }
+    
+    .indexLanza1Ep3Ref {
+        padding: 1rem;
+        text-align: center;
+        font-weight: 200;
+    }
+    
+    .indexLanza1Ep3RefSp{
+        width: 80px;
+        position: relative;
+        bottom: 260px;
+    }
+    
+    
+    /*indexStream = section2*/
+    .indexStream {
+        background-color: lightgrey;
+        box-shadow: 0px 10px 10px black;
+        padding: 2rem;
+        height: 935px;
+        grid-area: section2;
+    }
+    
+    .indexStream0Txt{
+        font-weight: 600;
+        font-size: 11px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        right: 5px;
+        filter: blur(1px);
+    }
+    
+    /*indexStream1*/
+    .indexStream1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    
+    .indexStream1Vid1 {
+        display: inline;
+    }
+    
+    .indexStream1Vid1Iframe {
+        color: black;
+        padding: 2rem;
+    }
+    
+    .indexStream1Vid1Iframe1 {
+        color: black;
+        width: 200px;
+        height: 300px;
+    }
+    
+    
+    /*indexStream2*/
+    .indexStream1Vid2 {
+        display: inline;
+    }
+    
+    .indexStream1Vid2Iframe {
+        color: black;
+        padding: 2rem;
+    }
+    
+    .indexStream1Vid1Iframe2 {
+        color: black;
+        width: 200px;
+        height: 300px;
+    }
+    
+    
+    /*indexPodcast = section3*/
+    .indexPodcast {
+        background-color: lightgrey;
+        box-shadow: 0px 10px 10px black;
+        padding: 2rem;
+        height: 870px;
+        grid-area: section3;
+    }
+    
+    .indexPodcast0Txt{
+        font-weight: 600;
+        font-size: 11px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        left: 1px;
+        filter: blur(1px);
+    }
+    
+    /*indexPodcast1*/
+    .indexPodcast1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+    
+    .indexPodcast1Pod1 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .indexPodcast1Pod1Iframe {
+        color: black;
+        padding: 1rem;
+    }
+    
+    .indexPodcast1Pod2Iframe1{
+        width: 200px;
+        height: 166px;
+    }
+    
+    /*indexPodcast2*/
+    .indexPodcast1Pod2 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .indexPodcast1Pod2Iframe {
+        color: black;
+        padding: 1rem;
+    }
+    
+    .indexPodcast1Pod2Iframe2{
+        width: 200px;
+        height: 166px;
+    }
+    
+    /*indexPodcast3*/
+    .indexPodcast1Pod3 {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .indexPodcast1Pod3Iframe {
+        color: black;
+        padding: 1rem;
+    }
+    
+    .indexPodcast1Pod2Iframe3{
+        width: 200px;
+        height: 166px;
+    }
+}
+
+
+/*indexFooter = section4*/
+.indexFooter {
+    background-color: lightgrey;
+    box-shadow: 0px 10px 10px black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    height: auto;
+    grid-area: section4;
+}
+
+.indexFooter0Txt{
+    font-weight: 400;
+    text-align: center;
+    margin: 3rem;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.indexFooter1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+.indexFooter1RedesSocialesIg{
+    width: 50px;
+}
+
+.indexFooter1RedesSocialesSp{
+    width: 50px;   
+}
+
+.indexFooter1RedesSocialesYt{
+    width: 50px;    
+}
+
+.indexFooter1RedesSocialesSc{
+    width: 50px;    
+}
+
+.indexFooter2Txt{
+    font-weight: 400;
+    text-align: center;
+    margin: 3rem;
+    font-style: italic;
+    font-size: 12px;
+}
+
