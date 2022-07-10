@@ -73,18 +73,16 @@
     display: inline;
 }
 
-.indexLanza1Ep1Img {
+.indexLanza1Ep1Img img {
     color: black;
     padding: 2rem;
-    width: 450px;
-    height: 450px;
-    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/1.SQ01.jpg");
+    width: 550px;
+    height: 550px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.indexLanza1Ep1Img:hover {
-    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/1.SQ01-back.jpg");
+.indexLanza1Ep1Img img:hover {
 }
 
 .indexLanza1Ep1Ref {
@@ -102,18 +100,16 @@
     display: inline;
 }
 
-.indexLanza1Ep2Img {
+.indexLanza1Ep2Img img {
     color: black;
     padding: 2rem;
-    width: 450px;
-    height: 450px;
-    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/2.SQ02.png");
+    width: 550px;
+    height: 550px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.indexLanza1Ep2Img:hover {
-    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/2.SQ02-back.jpg");
+.indexLanza1Ep2Img img:hover {
 }
 
 .indexLanza1Ep2Ref {
@@ -132,18 +128,16 @@
     display: inline;
 }
 
-.indexLanza1Ep3Img {
+.indexLanza1Ep3Img img {
     color: black;
     padding: 2rem;
-    width: 450px;
-    height: 450px;
-    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/5.SQBreaks.png");
+    width: 550px;
+    height: 550px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.indexLanza1Ep3Img:hover {
-    background-image: url("../../IMAGES/3.\ LANZAMIENTOS/SQBREAKS-back.jpg");
+.indexLanza1Ep3Img img:hover {
 }
 
 .indexLanza1Ep3Ref {
@@ -349,8 +343,10 @@
 
 
 
+
+
 /*mediaQuerryMobile*/
-@media only screen and (max-width:600px){
+@media only screen and (max-width:500px){
     .contenedorPadre{
         background-color: #808080 !important; 
         margin: auto;
@@ -379,7 +375,7 @@
     
     .indexMain1Portada img {
         width: 100%;
-        height: 180px;
+        height: 25vh;
     }
 
     
@@ -388,7 +384,7 @@
         background-color: lightgrey;
         box-shadow: 0px 10px 10px black;
         padding: 2rem;
-        height: 1250px;
+        height: 1750px;
         grid-area: section1;
     }
     
@@ -397,14 +393,12 @@
     
     .indexLanza0Txt{
         font-weight: 600;
-        font-size: 10px;
+        font-size: 20px;
         align-items: center;
         align-content: center;
         justify-content: center;
         text-align: center;
-        position: relative;
-        right: 18px;
-        filter: blur(1px);
+        filter: blur(2px);
     }
 
     
@@ -421,30 +415,30 @@
     .indexLanza1Ep1 {
     }
     
-    .indexLanza1Ep1Img {
+    .indexLanza1Ep1Img img {
         color: black;
-        padding: 2rem;
-        width: 200px;
-        height: 450px;
-        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/1.SQ01.jpg");
+        padding: 5rem;
+        width: 500px;
+        height: 500px;
         background-size: contain;
         background-repeat: no-repeat;
+        position: relative;
+        bottom: 100px;
     }
     
-    .indexLanza1Ep1Img:hover {
-        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/1.SQ01-back.jpg");
+    .indexLanza1Ep1Img img:hover {
     }
     
     .indexLanza1Ep1Ref {
         padding: 1rem;
         text-align: center;
-        font-weight: 200;
+        font-weight: 150;
     }
     
     .indexLanza1Ep1RefSp{
         width: 80px;
         position: relative;
-        bottom: 260px;
+        bottom: 170px;
     }
     
     /*indexLanza2*/
@@ -453,18 +447,16 @@
         bottom: 200px;
     }
     
-    .indexLanza1Ep2Img {
+    .indexLanza1Ep2Img img {
         color: black;
-        padding: 2rem;
-        width: 200px;
-        height: 450px;
-        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/2.SQ02.png");
+        padding: 5rem;
+        width: 500px;
+        height: 500px;
         background-size: contain;
         background-repeat: no-repeat;
     }
     
-    .indexLanza1Ep2Img:hover {
-        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/2.SQ02-back.jpg");
+    .indexLanza1Ep2Img img:hover {
     }
     
     .indexLanza1Ep2Ref {
@@ -476,28 +468,26 @@
     .indexLanza1Ep2RefSp{
         width: 80px;
         position: relative;
-        bottom: 260px;
+        bottom: 70px;
     }
     
     
     /*indexLanza3*/
     .indexLanza1Ep3 {
         position: relative;
-        bottom: 400px;
+        bottom: 300px;
     }
     
-    .indexLanza1Ep3Img {
+    .indexLanza1Ep3Img img {
         color: black;
-        padding: 2rem;
-        width: 200px;
-        height: 450px;
-        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/5.SQBreaks.png");
+        padding: 5rem;
+        width: 500px;
+        height: 500px;
         background-size: contain;
         background-repeat: no-repeat;
     }
     
-    .indexLanza1Ep3Img:hover {
-        background-image: url("../../IMAGES/3.\ LANZAMIENTOS/SQBREAKS-back.jpg");
+    .indexLanza1Ep3Img img:hover {
     }
     
     .indexLanza1Ep3Ref {
@@ -509,7 +499,7 @@
     .indexLanza1Ep3RefSp{
         width: 80px;
         position: relative;
-        bottom: 260px;
+        bottom: 70px;
     }
     
     
