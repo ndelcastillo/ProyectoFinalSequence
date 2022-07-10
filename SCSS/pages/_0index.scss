@@ -5,7 +5,7 @@
 }
 
 .contenedorPadre {
-    background-color: #808080 !important; 
+    background-color: #808080 !important;
     margin: auto;
     width: 100%;
     text-align: center;
@@ -46,10 +46,9 @@
     grid-area: section1;
 }
 
-.indexLanza0{
-}
+.indexLanza0 {}
 
-.indexLanza0Txt{
+.indexLanza0Txt {
     font-weight: 600;
     text-align: center;
     margin: 3rem;
@@ -59,7 +58,7 @@
 }
 
 /*indexLanza1*/
-.indexLanza1{
+.indexLanza1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -82,8 +81,7 @@
     background-repeat: no-repeat;
 }
 
-.indexLanza1Ep1Img img:hover {
-}
+.indexLanza1Ep1Img img:hover {}
 
 .indexLanza1Ep1Ref {
     padding: 1rem;
@@ -91,7 +89,7 @@
     font-weight: 200;
 }
 
-.indexLanza1Ep1RefSp{
+.indexLanza1Ep1RefSp {
     width: 150px;
 }
 
@@ -109,8 +107,7 @@
     background-repeat: no-repeat;
 }
 
-.indexLanza1Ep2Img img:hover {
-}
+.indexLanza1Ep2Img img:hover {}
 
 .indexLanza1Ep2Ref {
     padding: 1rem;
@@ -118,7 +115,7 @@
     font-weight: 200;
 }
 
-.indexLanza1Ep2RefSp{
+.indexLanza1Ep2RefSp {
     width: 150px;
 }
 
@@ -137,8 +134,7 @@
     background-repeat: no-repeat;
 }
 
-.indexLanza1Ep3Img img:hover {
-}
+.indexLanza1Ep3Img img:hover {}
 
 .indexLanza1Ep3Ref {
     padding: 1rem;
@@ -146,7 +142,7 @@
     font-weight: 200;
 }
 
-.indexLanza1Ep3RefSp{
+.indexLanza1Ep3RefSp {
     width: 150px;
 }
 
@@ -159,7 +155,7 @@
     grid-area: section2;
 }
 
-.indexStream0Txt{
+.indexStream0Txt {
     font-weight: 600;
     text-align: center;
     margin: 3rem;
@@ -168,7 +164,7 @@
 }
 
 /*indexStream1*/
-.indexStream1{
+.indexStream1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -218,7 +214,7 @@
     grid-area: section3;
 }
 
-.indexPodcast0Txt{
+.indexPodcast0Txt {
     text-align: center;
     margin: 3rem;
     margin-bottom: 4rem;
@@ -227,7 +223,7 @@
 }
 
 /*indexPodcast1*/
-.indexPodcast1{
+.indexPodcast1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -247,7 +243,7 @@
     padding: 1rem;
 }
 
-.indexPodcast1Pod2Iframe1{
+.indexPodcast1Pod2Iframe1 {
     width: 1620px;
     height: 166px;
 }
@@ -263,7 +259,7 @@
     padding: 1rem;
 }
 
-.indexPodcast1Pod2Iframe2{
+.indexPodcast1Pod2Iframe2 {
     width: 1620px;
     height: 166px;
 }
@@ -279,7 +275,7 @@
     padding: 1rem;
 }
 
-.indexPodcast1Pod2Iframe3{
+.indexPodcast1Pod2Iframe3 {
     width: 1620px;
     height: 166px;
 }
@@ -299,7 +295,7 @@
     grid-area: section4;
 }
 
-.indexFooter0Txt{
+.indexFooter0Txt {
     font-weight: 400;
     text-align: center;
     margin: 3rem;
@@ -307,7 +303,7 @@
     font-size: 16px;
 }
 
-.indexFooter1{
+.indexFooter1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -317,23 +313,23 @@
 }
 
 
-.indexFooter1RedesSocialesIg{
+.indexFooter1RedesSocialesIg {
     width: 100px;
 }
 
-.indexFooter1RedesSocialesSp{
-    width: 100px;   
+.indexFooter1RedesSocialesSp {
+    width: 100px;
 }
 
-.indexFooter1RedesSocialesYt{
-    width: 100px;    
+.indexFooter1RedesSocialesYt {
+    width: 100px;
 }
 
-.indexFooter1RedesSocialesSc{
-    width: 100px;    
+.indexFooter1RedesSocialesSc {
+    width: 100px;
 }
 
-.indexFooter2Txt{
+.indexFooter2Txt {
     font-weight: 400;
     text-align: center;
     margin: 3rem;
@@ -346,9 +342,9 @@
 
 
 /*mediaQuerryMobile*/
-@media only screen and (max-width:500px){
-    .contenedorPadre{
-        background-color: #808080 !important; 
+@media only screen and (max-width:450px) {
+    .contenedorPadre {
+        background-color: #808080 !important;
         margin: auto;
         width: 100%;
         text-align: center;
@@ -357,14 +353,29 @@
         display: grid;
         gap: 10px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto 1fr 1fr 1fr auto;
+        grid-template-rows: auto 1fr 1fr 1fr 1fr auto;
         grid-template-areas:
             "section0 section0 section0 section0"
             "section1 section1 section1 section1"
+            "section1 section1 section1 section1"
+            "section2 section2 section2 section2"
             "section2 section2 section2 section2"
             "section3 section3 section3 section3"
             "section4 section4 section4 section4"
     }
+
+    .headerIndexNavBarLogo {
+        width: 50px;
+        position: relative;
+        right: 50px;
+    }
+
+    
+    .navbar-toggler{
+        position: relative;
+        left: 45px;
+    }
+
 
     .indexMain {
         width: 100%;
@@ -372,26 +383,145 @@
         box-shadow: 0px 10px 10px black;
         grid-area: section0;
     }
-    
+
     .indexMain1Portada img {
         width: 100%;
-        height: 25vh;
+        height: 180px;
     }
 
-    
+
     /*indexLanza = section1*/
     .indexLanza {
         background-color: lightgrey;
         box-shadow: 0px 10px 10px black;
         padding: 2rem;
-        height: 1750px;
+        height: 1400px;
         grid-area: section1;
     }
-    
-    .indexLanza0{
+
+    .indexLanza0 {}
+
+    .indexLanza0Txt {
+        font-weight: 600;
+        font-size: 20px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        filter: blur(2px);
+        position: relative;
+        bottom: 20px;
+        right: 30px;
     }
-    
-    .indexLanza0Txt{
+
+
+    /*indexLanza1*/
+    .indexLanza1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+
+    .indexLanza1Ep1 {
+        position: relative;
+        top: 30px;
+    }
+
+    .indexLanza1Ep1Img img {
+        color: black;
+        width: 350px;
+        height: 350px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .indexLanza1Ep1Img img:hover {}
+
+    .indexLanza1Ep1Ref {
+        padding: 1rem;
+        text-align: center;
+        font-weight: 150;
+    }
+
+    .indexLanza1Ep1RefSp {
+        width: 80px;
+        position: relative;
+        bottom: 140px;
+    }
+
+    /*indexLanza2*/
+    .indexLanza1Ep2 {
+        position: relative;
+        bottom: 120px;
+    }
+
+    .indexLanza1Ep2Img img {
+        color: black;
+        width: 350px;
+        height: 350px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .indexLanza1Ep2Img img:hover {}
+
+    .indexLanza1Ep2Ref {
+        padding: 1rem;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .indexLanza1Ep2RefSp {
+        width: 80px;
+        position: relative;
+        bottom: 40px;
+    }
+
+
+    /*indexLanza3*/
+    .indexLanza1Ep3 {
+        position: relative;
+        bottom: 170px;
+    }
+
+    .indexLanza1Ep3Img img {
+        color: black;
+        width: 350px;
+        height: 350px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .indexLanza1Ep3Img img:hover {}
+
+    .indexLanza1Ep3Ref {
+        padding: 1rem;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .indexLanza1Ep3RefSp {
+        width: 80px;
+        position: relative;
+        bottom: 30px;
+    }
+
+
+    /*indexStream = section2*/
+    .indexStream {
+        background-color: lightgrey;
+        box-shadow: 0px 10px 10px black;
+        padding: 2rem;
+        height: 935px;
+        grid-area: section2;
+    }
+
+    .indexStream0Txt {
         font-weight: 600;
         font-size: 20px;
         align-items: center;
@@ -401,131 +531,8 @@
         filter: blur(2px);
     }
 
-    
-    /*indexLanza1*/
-    .indexLanza1{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        align-content: center;
-        justify-content: space-evenly;
-    }
-    
-    .indexLanza1Ep1 {
-    }
-    
-    .indexLanza1Ep1Img img {
-        color: black;
-        padding: 5rem;
-        width: 500px;
-        height: 500px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: relative;
-        bottom: 100px;
-    }
-    
-    .indexLanza1Ep1Img img:hover {
-    }
-    
-    .indexLanza1Ep1Ref {
-        padding: 1rem;
-        text-align: center;
-        font-weight: 150;
-    }
-    
-    .indexLanza1Ep1RefSp{
-        width: 80px;
-        position: relative;
-        bottom: 170px;
-    }
-    
-    /*indexLanza2*/
-    .indexLanza1Ep2 {
-        position: relative;
-        bottom: 200px;
-    }
-    
-    .indexLanza1Ep2Img img {
-        color: black;
-        padding: 5rem;
-        width: 500px;
-        height: 500px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    
-    .indexLanza1Ep2Img img:hover {
-    }
-    
-    .indexLanza1Ep2Ref {
-        padding: 1rem;
-        text-align: center;
-        font-weight: 200;
-    }
-    
-    .indexLanza1Ep2RefSp{
-        width: 80px;
-        position: relative;
-        bottom: 70px;
-    }
-    
-    
-    /*indexLanza3*/
-    .indexLanza1Ep3 {
-        position: relative;
-        bottom: 300px;
-    }
-    
-    .indexLanza1Ep3Img img {
-        color: black;
-        padding: 5rem;
-        width: 500px;
-        height: 500px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    
-    .indexLanza1Ep3Img img:hover {
-    }
-    
-    .indexLanza1Ep3Ref {
-        padding: 1rem;
-        text-align: center;
-        font-weight: 200;
-    }
-    
-    .indexLanza1Ep3RefSp{
-        width: 80px;
-        position: relative;
-        bottom: 70px;
-    }
-    
-    
-    /*indexStream = section2*/
-    .indexStream {
-        background-color: lightgrey;
-        box-shadow: 0px 10px 10px black;
-        padding: 2rem;
-        height: 935px;
-        grid-area: section2;
-    }
-    
-    .indexStream0Txt{
-        font-weight: 600;
-        font-size: 11px;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        text-align: center;
-        position: relative;
-        right: 5px;
-        filter: blur(1px);
-    }
-    
     /*indexStream1*/
-    .indexStream1{
+    .indexStream1 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -534,40 +541,40 @@
         justify-content: center;
         margin-bottom: 5rem;
     }
-    
+
     .indexStream1Vid1 {
         display: inline;
     }
-    
+
     .indexStream1Vid1Iframe {
         color: black;
         padding: 2rem;
     }
-    
+
     .indexStream1Vid1Iframe1 {
         color: black;
-        width: 200px;
+        width: 300px;
         height: 300px;
     }
-    
-    
+
+
     /*indexStream2*/
     .indexStream1Vid2 {
         display: inline;
     }
-    
+
     .indexStream1Vid2Iframe {
         color: black;
         padding: 2rem;
     }
-    
+
     .indexStream1Vid1Iframe2 {
         color: black;
-        width: 200px;
+        width: 300px;
         height: 300px;
     }
-    
-    
+
+
     /*indexPodcast = section3*/
     .indexPodcast {
         background-color: lightgrey;
@@ -576,21 +583,19 @@
         height: 870px;
         grid-area: section3;
     }
-    
-    .indexPodcast0Txt{
+
+    .indexPodcast0Txt {
         font-weight: 600;
-        font-size: 11px;
+        font-size: 20px;
         align-items: center;
         align-content: center;
         justify-content: center;
         text-align: center;
-        position: relative;
-        left: 1px;
-        filter: blur(1px);
+        filter: blur(2px);
     }
-    
+
     /*indexPodcast1*/
-    .indexPodcast1{
+    .indexPodcast1 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -599,51 +604,51 @@
         justify-content: center;
         margin-bottom: 4rem;
     }
-    
+
     .indexPodcast1Pod1 {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    
+
     .indexPodcast1Pod1Iframe {
         color: black;
         padding: 1rem;
     }
-    
-    .indexPodcast1Pod2Iframe1{
-        width: 200px;
+
+    .indexPodcast1Pod2Iframe1 {
+        width: 300px;
         height: 166px;
     }
-    
+
     /*indexPodcast2*/
     .indexPodcast1Pod2 {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    
+
     .indexPodcast1Pod2Iframe {
         color: black;
         padding: 1rem;
     }
-    
-    .indexPodcast1Pod2Iframe2{
-        width: 200px;
+
+    .indexPodcast1Pod2Iframe2 {
+        width: 300px;
         height: 166px;
     }
-    
+
     /*indexPodcast3*/
     .indexPodcast1Pod3 {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    
+
     .indexPodcast1Pod3Iframe {
         color: black;
         padding: 1rem;
     }
-    
-    .indexPodcast1Pod2Iframe3{
-        width: 200px;
+
+    .indexPodcast1Pod2Iframe3 {
+        width: 300px;
         height: 166px;
     }
 }
@@ -661,9 +666,10 @@
     justify-content: space-around;
     height: auto;
     grid-area: section4;
+    height: 300px;
 }
 
-.indexFooter0Txt{
+.indexFooter0Txt {
     font-weight: 400;
     text-align: center;
     margin: 3rem;
@@ -671,7 +677,7 @@
     font-size: 12px;
 }
 
-.indexFooter1{
+.indexFooter1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -681,28 +687,26 @@
 }
 
 
-.indexFooter1RedesSocialesIg{
+.indexFooter1RedesSocialesIg {
     width: 50px;
 }
 
-.indexFooter1RedesSocialesSp{
-    width: 50px;   
+.indexFooter1RedesSocialesSp {
+    width: 50px;
 }
 
-.indexFooter1RedesSocialesYt{
-    width: 50px;    
+.indexFooter1RedesSocialesYt {
+    width: 50px;
 }
 
-.indexFooter1RedesSocialesSc{
-    width: 50px;    
+.indexFooter1RedesSocialesSc {
+    width: 50px;
 }
 
-.indexFooter2Txt{
+.indexFooter2Txt {
     font-weight: 400;
     text-align: center;
     margin: 3rem;
     font-style: italic;
     font-size: 12px;
 }
-
-

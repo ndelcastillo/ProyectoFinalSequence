@@ -388,7 +388,7 @@ header {
   font-size: 16px; }
 
 /*mediaQuerryMobile*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
   .contenedorPadre {
     background-color: #808080 !important;
     margin: auto;
@@ -399,8 +399,15 @@ header {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr auto;
-    grid-template-areas: "section0 section0 section0 section0" "section1 section1 section1 section1" "section2 section2 section2 section2" "section3 section3 section3 section3" "section4 section4 section4 section4"; }
+    grid-template-rows: auto 1fr 1fr 1fr 1fr auto;
+    grid-template-areas: "section0 section0 section0 section0" "section1 section1 section1 section1" "section1 section1 section1 section1" "section2 section2 section2 section2" "section2 section2 section2 section2" "section3 section3 section3 section3" "section4 section4 section4 section4"; }
+  .headerIndexNavBarLogo {
+    width: 50px;
+    position: relative;
+    right: 50px; }
+  .navbar-toggler {
+    position: relative;
+    left: 45px; }
   .indexMain {
     width: 100%;
     background-color: lightgrey;
@@ -408,13 +415,13 @@ header {
     grid-area: section0; }
   .indexMain1Portada img {
     width: 100%;
-    height: 25vh; }
+    height: 180px; }
   /*indexLanza = section1*/
   .indexLanza {
     background-color: lightgrey;
     box-shadow: 0px 10px 10px black;
     padding: 2rem;
-    height: 1750px;
+    height: 1400px;
     grid-area: section1; }
   .indexLanza0Txt {
     font-weight: 600;
@@ -423,7 +430,10 @@ header {
     align-content: center;
     justify-content: center;
     text-align: center;
-    filter: blur(2px); }
+    filter: blur(2px);
+    position: relative;
+    bottom: 20px;
+    right: 30px; }
   /*indexLanza1*/
   .indexLanza1 {
     display: flex;
@@ -432,11 +442,13 @@ header {
     align-items: center;
     align-content: center;
     justify-content: space-evenly; }
+  .indexLanza1Ep1 {
+    position: relative;
+    top: 30px; }
   .indexLanza1Ep1Img img {
     color: black;
-    padding: 5rem;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -448,16 +460,15 @@ header {
   .indexLanza1Ep1RefSp {
     width: 80px;
     position: relative;
-    bottom: 170px; }
+    bottom: 140px; }
   /*indexLanza2*/
   .indexLanza1Ep2 {
     position: relative;
-    bottom: 200px; }
+    bottom: 120px; }
   .indexLanza1Ep2Img img {
     color: black;
-    padding: 5rem;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     background-size: contain;
     background-repeat: no-repeat; }
   .indexLanza1Ep2Ref {
@@ -467,16 +478,15 @@ header {
   .indexLanza1Ep2RefSp {
     width: 80px;
     position: relative;
-    bottom: 70px; }
+    bottom: 40px; }
   /*indexLanza3*/
   .indexLanza1Ep3 {
     position: relative;
-    bottom: 300px; }
+    bottom: 170px; }
   .indexLanza1Ep3Img img {
     color: black;
-    padding: 5rem;
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     background-size: contain;
     background-repeat: no-repeat; }
   .indexLanza1Ep3Ref {
@@ -486,7 +496,7 @@ header {
   .indexLanza1Ep3RefSp {
     width: 80px;
     position: relative;
-    bottom: 70px; }
+    bottom: 30px; }
   /*indexStream = section2*/
   .indexStream {
     background-color: lightgrey;
@@ -496,14 +506,12 @@ header {
     grid-area: section2; }
   .indexStream0Txt {
     font-weight: 600;
-    font-size: 11px;
+    font-size: 20px;
     align-items: center;
     align-content: center;
     justify-content: center;
     text-align: center;
-    position: relative;
-    right: 5px;
-    filter: blur(1px); }
+    filter: blur(2px); }
   /*indexStream1*/
   .indexStream1 {
     display: flex;
@@ -520,7 +528,7 @@ header {
     padding: 2rem; }
   .indexStream1Vid1Iframe1 {
     color: black;
-    width: 200px;
+    width: 300px;
     height: 300px; }
   /*indexStream2*/
   .indexStream1Vid2 {
@@ -530,7 +538,7 @@ header {
     padding: 2rem; }
   .indexStream1Vid1Iframe2 {
     color: black;
-    width: 200px;
+    width: 300px;
     height: 300px; }
   /*indexPodcast = section3*/
   .indexPodcast {
@@ -541,14 +549,12 @@ header {
     grid-area: section3; }
   .indexPodcast0Txt {
     font-weight: 600;
-    font-size: 11px;
+    font-size: 20px;
     align-items: center;
     align-content: center;
     justify-content: center;
     text-align: center;
-    position: relative;
-    left: 1px;
-    filter: blur(1px); }
+    filter: blur(2px); }
   /*indexPodcast1*/
   .indexPodcast1 {
     display: flex;
@@ -565,7 +571,7 @@ header {
     color: black;
     padding: 1rem; }
   .indexPodcast1Pod2Iframe1 {
-    width: 200px;
+    width: 300px;
     height: 166px; }
   /*indexPodcast2*/
   .indexPodcast1Pod2 {
@@ -575,7 +581,7 @@ header {
     color: black;
     padding: 1rem; }
   .indexPodcast1Pod2Iframe2 {
-    width: 200px;
+    width: 300px;
     height: 166px; }
   /*indexPodcast3*/
   .indexPodcast1Pod3 {
@@ -585,7 +591,7 @@ header {
     color: black;
     padding: 1rem; }
   .indexPodcast1Pod2Iframe3 {
-    width: 200px;
+    width: 300px;
     height: 166px; } }
 
 /*indexFooter = section4*/
@@ -599,7 +605,8 @@ header {
   align-content: center;
   justify-content: space-around;
   height: auto;
-  grid-area: section4; }
+  grid-area: section4;
+  height: 300px; }
 
 .indexFooter0Txt {
   font-weight: 400;
