@@ -8,6 +8,13 @@
     margin-bottom: 3rem;
 }
 
+.row_nexo_nexo1_txt{
+    font-family: $fontFamilyM;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
 .row_nexo_nexo1_img1 {
     background-color: grey;
 
@@ -35,6 +42,10 @@
         position: relative;
         top: 100px;
     }
+}
+
+.row_nexo1{
+    margin-bottom: 3rem;
 }
 
 .row_nexo_nexo1_info1 {
@@ -69,6 +80,13 @@
     }
 }
 
+.row_nexo_nexo2_txt{
+    font-family: $fontFamilyM;
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
 .row_nexo_nexo2_img1 {
     background-color: grey;
 
@@ -96,6 +114,10 @@
         position: relative;
         top: 45px;
     }
+}
+
+.row_nexo2{
+    margin-bottom: 3rem;
 }
 
 .row_nexo_nexo2_info1 {
@@ -141,6 +163,10 @@
         margin-bottom: 0rem;
     }
 
+    .row_nexo1{
+        margin-bottom: 0rem;
+    }
+
     .row_nexo_nexo1_img1 {
         background-color: grey;
     
@@ -159,6 +185,10 @@
             position: relative;
             top: 2px;
         }
+    }
+
+    .row_nexo1{
+        margin-bottom: 0rem;
     }
 
     .row_nexo_nexo2_img1 {

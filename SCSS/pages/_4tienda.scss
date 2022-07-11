@@ -8,6 +8,51 @@
     margin-bottom: 3rem;
 }
 
+.row_tienda_modelo1_texto {
+    h1 {
+        font-family: $fontFamilyM;
+        font-weight: 200;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+}
+
+.row_tienda_modelo1{
+    margin-bottom: 3rem;
+}
+
+.row_tienda_modelo2_texto {
+    h1 {
+        font-family: $fontFamilyM;
+        font-weight: 200;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+}
+
+.row_tienda_modelo2{
+    margin-bottom: 3rem;
+}
+
+.row_tienda_cuestionario{
+    margin-bottom: 3rem; 
+}
+
+.container{
+    margin-bottom: 3rem;     
+}
+
+.row_tienda_preguntasFrecuentes {
+    h1 {
+        font-family: $fontFamilyM;
+        font-weight: 200;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+}
+
+
+
 .row_tienda_coleccion {
     background-color: lightgray;
 }

@@ -11,9 +11,14 @@
 .row_lanzamientos_lanzamiento1_texto {
     h1 {
         font-family: $fontFamilyM;
-        font-weight: 400;
+        font-weight: 200;
         letter-spacing: 5px;
+        font-size: 20px;
     }
+}
+
+.row_lanzamientos_lanzamiento1_infoall {
+    margin-bottom: 3rem;
 }
 
 .row_lanzamientos_lanzamiento1_info1 {
@@ -46,6 +51,14 @@
         align-items: center;
         align-content: center;
     }
+
+    .redesSP1 {
+        width: 150px;
+    }
+
+    .redesBP1 {
+        width: 150px;
+    }
 }
 
 .row_lanzamientos_lanzamiento1_info3 {
@@ -67,9 +80,14 @@
 .row_lanzamientos_lanzamiento2_texto {
     h1 {
         font-family: $fontFamilyM;
-        font-weight: 400;
+        font-weight: 200;
         letter-spacing: 5px;
+        font-size: 20px;
     }
+}
+
+.row_lanzamientos_lanzamiento2_infoall {
+    margin-bottom: 3rem;
 }
 
 .row_lanzamientos_lanzamiento2_info1 {
@@ -123,9 +141,14 @@
 .row_lanzamientos_lanzamiento3_texto {
     h1 {
         font-family: $fontFamilyM;
-        font-weight: 400;
+        font-weight: 200;
         letter-spacing: 5px;
+        font-size: 20px;
     }
+}
+
+.row_lanzamientos_lanzamiento3_infoall {
+    margin-bottom: 3rem;
 }
 
 .row_lanzamientos_lanzamiento3_info1 {
@@ -181,9 +204,14 @@
 .row_lanzamientos_lanzamiento4_texto {
     h1 {
         font-family: $fontFamilyM;
-        font-weight: 400;
+        font-weight: 200;
         letter-spacing: 5px;
+        font-size: 20px;
     }
+}
+
+.row_lanzamientos_lanzamiento4_infoall {
+    margin-bottom: 3rem;
 }
 
 .row_lanzamientos_lanzamiento4_info1 {
@@ -237,9 +265,14 @@
 .row_lanzamientos_lanzamiento5_texto {
     h1 {
         font-family: $fontFamilyM;
-        font-weight: 400;
+        font-weight: 200;
         letter-spacing: 5px;
+        font-size: 20px;
     }
+}
+
+.row_lanzamientos_lanzamiento5_infoall {
+    margin-bottom: 3rem;
 }
 
 .row_lanzamientos_lanzamiento5_info1 {
@@ -295,9 +328,14 @@
 .row_lanzamientos_lanzamiento6_texto {
     h1 {
         font-family: $fontFamilyM;
-        font-weight: 400;
+        font-weight: 200;
         letter-spacing: 5px;
+        font-size: 20px;
     }
+}
+
+.row_lanzamientos_lanzamiento6_infoall {
+    margin-bottom: 3rem;
 }
 
 .row_lanzamientos_lanzamiento6_info1 {
@@ -361,6 +399,147 @@
         margin-bottom: 0rem;
     }
 
+
+    .row_lanzamientos_lanzamiento1_texto {
+        h1 {
+            font-family: $fontFamilyM;
+            font-weight: 200;
+            letter-spacing: 5px;
+            font-size: 20px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento1_infoall {
+        margin-bottom: 3rem;
+    }
+
+    .row_lanzamientos_lanzamiento1_info1 {
+        background: linear-gradient(to left, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 5px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento1_info2 {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+        a {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+
+
+            .redesSP1 {
+                width: 100px;
+            }
+
+            .redesBP1 {
+                width: 100px;
+            }
+        }
+    }
+
+    .row_lanzamientos_lanzamiento1_info3 {
+        background: linear-gradient(to right, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 5px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento2_texto {
+        h1 {
+            font-family: $fontFamilyM;
+            font-weight: 200;
+            letter-spacing: 5px;
+            font-size: 20px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento2_infoall {
+        margin-bottom: 3rem;
+    }
+
+    .row_lanzamientos_lanzamiento2_info1 {
+        background: linear-gradient(to left, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 10px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento2_info2 {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+        a {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento2_info3 {
+        background: linear-gradient(to right, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 10px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+
     .row_lanzamientos_lanzamiento3_info1 {
         background: linear-gradient(to left, white, grey);
 
@@ -370,28 +549,231 @@
 
         li {
             list-style-type: none;
-            font-size: x-large;
+            font-size: medium;
             font-family: 'Montserrat', sans-serif;
             font-weight: 300;
             position: relative;
             top: 10px;
+            right: 10px;
         }
     }
 
     .row_lanzamientos_lanzamiento3_info3 {
         background: linear-gradient(to right, white, grey);
-    
+
         ul {
             text-align: center;
         }
-    
+
         li {
             list-style-type: none;
-            font-size: x-large;
+            font-size: medium;
             font-family: 'Montserrat', sans-serif;
             font-weight: 300;
             position: relative;
             top: 10px;
+            right: 10px;
         }
     }
+
+
+    .row_lanzamientos_lanzamiento4_texto {
+        h1 {
+            font-family: $fontFamilyM;
+            font-weight: 200;
+            letter-spacing: 5px;
+            font-size: 20px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento4_infoall {
+        margin-bottom: 3rem;
+    }
+
+    .row_lanzamientos_lanzamiento4_info1 {
+        background: linear-gradient(to left, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 10px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento4_info2 {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+        a {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento4_info3 {
+        background: linear-gradient(to right, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 10px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento5_texto {
+        h1 {
+            font-family: $fontFamilyM;
+            font-weight: 200;
+            letter-spacing: 5px;
+            font-size: 20px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento5_infoall {
+        margin-bottom: 3rem;
+    }
+
+    .row_lanzamientos_lanzamiento5_info1 {
+        background: linear-gradient(to left, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 10px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento5_info2 {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+        a {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            position: relative;
+            top: 85px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento5_info3 {
+        background: linear-gradient(to right, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 10px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento6_texto {
+        h1 {
+            font-family: $fontFamilyM;
+            font-weight: 200;
+            letter-spacing: 5px;
+            font-size: 20px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento6_infoall {
+        margin-bottom: 3rem;
+    }
+
+    .row_lanzamientos_lanzamiento6_info1 {
+        background: linear-gradient(to left, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 10px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento6_info2 {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+        a {
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            position: relative;
+            top: 25px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento6_info3 {
+        background: linear-gradient(to right, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: medium;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            margin: 10px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
 }

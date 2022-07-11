@@ -3,6 +3,7 @@
 
 .headerIndex{
     box-shadow: 10px 10px 15px black;
+    margin-bottom: 3rem;
 }
 
 .navbar {
@@ -60,6 +61,12 @@
 @media only screen and (max-width:450px) {
 
     /*headerIndex*/
+
+    .headerIndex {
+        box-shadow: 10px 10px 15px black;
+        margin-bottom: 0rem;
+    }
+
     .headerIndexNavBarLogo {
         width: 50px;
         position: relative;

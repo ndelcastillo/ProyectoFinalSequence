@@ -3,17 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .headerIndex {
     margin-bottom: 3rem;
 }
 
 .row_contacto_somos {
     .somos {
-        text-align: left;
+        font-family: $fontFamilyM;
+        font-weight: 200;
+        letter-spacing: 5px;
+        font-size: 22px;
+
     }
 }
 
-.row_contacto_sqimg1{
+.row_contacto_sqimg1 {
     height: 975px;
     width: 100%;
 }
@@ -30,7 +35,10 @@
 
 .row_contacto_nosotros {
     .nosotros {
-        text-align: left;
+        font-family: $fontFamilyM;
+        font-weight: 200;
+        letter-spacing: 5px;
+        font-size: 20px;
     }
 }
 
@@ -38,9 +46,10 @@
     text-align: left;
 
     .nosotros1 {
-        font-size: 25px;
         font-family: $fontFamilyM;
-        font-weight: 200;
+        font-weight: 100;
+        letter-spacing: 3px;
+        font-size: 18px;
     }
 }
 
@@ -48,9 +57,10 @@
     text-align: left;
 
     .nosotros2 {
-        font-size: 25px;
         font-family: $fontFamilyM;
-        font-weight: 200;
+        font-weight: 100;
+        letter-spacing: 3px;
+        font-size: 18px;
     }
 }
 
@@ -58,9 +68,10 @@
     text-align: left;
 
     .nosotros3 {
-        font-size: 25px;
         font-family: $fontFamilyM;
-        font-weight: 200;
+        font-weight: 100;
+        letter-spacing: 3px;
+        font-size: 18px;
     }
 }
 
@@ -68,16 +79,20 @@
     text-align: left;
 
     .nosotros4 {
-        font-size: 25px;
         font-family: $fontFamilyM;
-        font-weight: 200;
+        font-weight: 100;
+        letter-spacing: 3px;
+        font-size: 18px;
     }
 }
 
 
 .row_contacto_ustedes {
     .ustedes {
-        text-align: left;
+        font-family: $fontFamilyM;
+        font-weight: 200;
+        letter-spacing: 5px;
+        font-size: 20px;
     }
 }
 
@@ -171,13 +186,23 @@ $tp: map-get($textosFormulario, tp);
         margin-bottom: 0rem;
     }
 
-    .row_contacto_sqimg1{
+    .row_contacto_sqtexto {
+        .texto {
+            text-align: justify;
+            font-size: 12px;
+            font-family: $fontFamilyM;
+            font-weight: 200;
+            line-height: 1.6;
+        }
+    }
+
+    .row_contacto_sqimg1 {
         height: 100%;
         width: 100%;
-    }    
+    }
 
-    .row_contacto_ustedes_formulario1_data9{
+    .row_contacto_ustedes_formulario1_data9 {
         width: 100%;
     }
-}
 
+}
