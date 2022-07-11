@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.headerIndex {
+    margin-bottom: 3rem;
+}
+
 .row_nexo_nexo1_img1 {
     background-color: grey;
 
@@ -123,5 +127,57 @@
         font-weight: 300;
         margin: 10px;
         text-align: justify;
+    }
+}
+
+
+
+
+
+/*mediaQuerryMobile*/
+@media only screen and (max-width:450px) {
+
+    .headerIndex {
+        margin-bottom: 0rem;
+    }
+
+    .row_nexo_nexo1_img1 {
+        background-color: grey;
+    
+        .nexo1A {
+            justify-content: center;
+            position: relative;
+            top: 2px;
+        }
+    }
+
+    .row_nexo_nexo1_img3 {
+        background-color: grey;
+    
+        .nexo1C {
+            justify-content: center;
+            position: relative;
+            top: 2px;
+        }
+    }
+
+    .row_nexo_nexo2_img1 {
+        background-color: grey;
+    
+        .nexo2A {
+            justify-content: center;
+            position: relative;
+            top: 2px;
+        }
+    }
+
+    .row_nexo_nexo2_img3 {
+        background-color: grey;
+    
+        .nexo2C {
+            justify-content: center;
+            position: relative;
+            top: 2px;
+        }
     }
 }

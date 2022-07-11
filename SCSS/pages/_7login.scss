@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.headerIndex {
+    margin-bottom: 3rem;
+}
+
 .login {
     background: linear-gradient(to right, white, grey);
 }
@@ -59,4 +63,14 @@ $anchoCard: 500px;
 
 .cardlogin3 {
     @include flexible ()
+}
+
+
+/*mediaQuerryMobile*/
+@media only screen and (max-width:450px) {
+
+    .headerIndex {
+        margin-bottom: 3rem;
+    }
+
 }

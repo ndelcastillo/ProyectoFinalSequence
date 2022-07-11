@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.headerIndex {
+    margin-bottom: 3rem;
+}
+
 .row_tienda_coleccion {
     background-color: lightgray;
 }
@@ -65,4 +69,16 @@ $tp: map-get($textosFormulario, tp);
 
 .row_tienda_formulario1_data6 {
     padding: $tp;
+}
+
+
+
+
+
+/*mediaQuerryMobile*/
+@media only screen and (max-width:450px) {
+
+    .headerIndex {
+        margin-bottom: 0rem;
+    }
 }

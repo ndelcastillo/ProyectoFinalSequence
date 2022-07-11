@@ -3,11 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.headerIndex {
+    margin-bottom: 3rem;
+}
 
 .row_contacto_somos {
     .somos {
         text-align: left;
     }
+}
+
+.row_contacto_sqimg1{
+    height: 975px;
+    width: 100%;
 }
 
 .row_contacto_sqtexto {
@@ -67,7 +75,6 @@
 }
 
 
-
 .row_contacto_ustedes {
     .ustedes {
         text-align: left;
@@ -82,6 +89,7 @@
         justify-content: center;
     }
 }
+
 
 $textosContacto: (
     t: 10px,
@@ -151,3 +159,25 @@ $tp: map-get($textosFormulario, tp);
 .row_contacto_ustedes_formulario1_data10 {
     padding: $tp;
 }
+
+
+
+
+
+/*mediaQuerryMobile*/
+@media only screen and (max-width:450px) {
+
+    .headerIndex {
+        margin-bottom: 0rem;
+    }
+
+    .row_contacto_sqimg1{
+        height: 100%;
+        width: 100%;
+    }    
+
+    .row_contacto_ustedes_formulario1_data9{
+        width: 100%;
+    }
+}
+

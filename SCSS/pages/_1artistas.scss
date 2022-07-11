@@ -4,63 +4,88 @@
     box-sizing: border-box;
 }
 
-
-.row_artistas_artista1 {
-    background-color: lightgray;
+.headerIndex {
+    margin-bottom: 3rem;
 }
 
-.row_artistas_artista2 {
-    background-color: lightgray;
+.row_artistas_artista1 {}
+
+.row_artistas_artista2 {}
+
+.row_artistas_artista3 {}
+
+.row_artistas_artista4 {}
+
+.row_artistas_artista5 {}
+
+.row_artistas_artista6 {}
+
+.row_artistas_artista7 {}
+
+.row_artistas_artista8 {}
+
+.row_artistas_artista9 {}
+
+.row_artistas_artista10 {}
+
+.row_artistas_artista11 {}
+
+.row_artistas_artista12 {}
+
+.row_artistas_artista13 {}
+
+.row_artistas_artista14 {}
+
+.row_artistas_artista15 {}
+
+.card {
+    width: 27.55rem;
 }
 
-.row_artistas_artista3 {
-    background-color: lightgray;
-}
+.row_footer {}
 
-.row_artistas_artista4 {
-    background-color: lightgray;
-}
 
-.row_artistas_artista5 {
-    background-color: lightgray;
-}
 
-.row_artistas_artista6 {
-    background-color: lightgray;
-}
 
-.row_artistas_artista7 {
-    background-color: lightgray;
-}
+/*mediaQuerryMobile*/
+@media only screen and (max-width:450px) {
 
-.row_artistas_artista8 {
-    background-color: lightgray;
-}
+    .headerIndex {
+        margin-bottom: 0rem;
+    }
 
-.row_artistas_artista9 {
-    background-color: lightgray;
-}
+    .row_artistas_artista1 {}
 
-.row_artistas_artista10 {
-    background-color: lightgray;
-}
+    .row_artistas_artista2 {}
 
-.row_artistas_artista11 {
-    background-color: lightgray;
-}
+    .row_artistas_artista3 {}
 
-.row_artistas_artista12 {
-    background-color: lightgray;
-}
+    .row_artistas_artista4 {}
 
-.row_artistas_artista13 {
-    background-color: lightgray;
-}
+    .row_artistas_artista5 {}
 
-.row_artistas_artista14 {
-    background-color: lightgray;
-}
+    .row_artistas_artista6 {}
 
-.row_artistas_artista15 {
-    background-color: lightgray;
+    .row_artistas_artista7 {}
+
+    .row_artistas_artista8 {}
+
+    .row_artistas_artista9 {}
+
+    .row_artistas_artista10 {}
+
+    .row_artistas_artista11 {}
+
+    .row_artistas_artista12 {}
+
+    .row_artistas_artista13 {}
+
+    .row_artistas_artista14 {}
+
+    .row_artistas_artista15 {}
+
+    .card {
+        width: 100%;
+    }
+
 }

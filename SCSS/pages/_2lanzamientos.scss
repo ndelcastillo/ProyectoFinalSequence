@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.headerIndex {
+    margin-bottom: 3rem;
+}
+
 .row_lanzamientos_lanzamiento1_texto {
     h1 {
         font-family: $fontFamilyM;
@@ -343,5 +347,51 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         margin: 10px;
+    }
+}
+
+
+
+
+
+/*mediaQuerryMobile*/
+@media only screen and (max-width:450px) {
+
+    .headerIndex {
+        margin-bottom: 0rem;
+    }
+
+    .row_lanzamientos_lanzamiento3_info1 {
+        background: linear-gradient(to left, white, grey);
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: x-large;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            position: relative;
+            top: 10px;
+        }
+    }
+
+    .row_lanzamientos_lanzamiento3_info3 {
+        background: linear-gradient(to right, white, grey);
+    
+        ul {
+            text-align: center;
+        }
+    
+        li {
+            list-style-type: none;
+            font-size: x-large;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            position: relative;
+            top: 10px;
+        }
     }
 }
